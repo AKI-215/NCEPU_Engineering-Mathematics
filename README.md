@@ -69,10 +69,10 @@ Nn(x)=f[x0]+f[x0,x1](x−x0)+⋯+f[x0,…,xn]k=0∏n−1(x−xk)
 5.3 Hermite 插值 （核心内容，差商表）
 要求函数值及导数值匹配。可用重节点差商表构造。
 6. 常微分方程数值解法
-  推荐视频https://www.bilibili.com/video/BV1MK411u7d2/?spm_id_from=333.337.search-card.all.click，前四节的内容
-考虑初值问题：dxdy=f(x,y),y(x0)=y0。
-- 显式 Euler 法：yn+1=yn+hnf(xn,yn)，局部截断误差 O(h2)，一阶精度。
-- 隐式 Euler 法：yn+1=yn+hnf(xn+1,yn+1)，同样一阶精度。
+  推荐视频https://www.bilibili.com/video/BV1MK411u7d2/?spm_id_from=333.337.search-card.all.click
+
+- 显式 Euler 法：yn+1=yn+hnf(xn,yn)，一阶精度。
+- 隐式 Euler 法：yn+1=yn+hnf(xn+1,yn+1)，一阶精度。
 - 改进 Euler 法：二阶精度。
 - 梯形法：二阶精度。
 - 局部截断误差：若 En+1=O(hp+1)，则方法为 p阶。
